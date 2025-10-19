@@ -1,7 +1,15 @@
-package com.thammy.day_2;
+import com.thammy.day_2.Profile;
 
-public class Exercise1 {
-    static void main() {
-        System.out.println("Day 2 Exercise 1");
-    }
+void main() {
+
+    /*Default constructor
+     Profile profile = new Profile();*/
+
+    //Overloaded constructor
+    Profile profile = new Profile("Thamsanqa", 33, "Black", true, "Inanda");
+
+    //printing the Pojo
+    System.out.println(profile);
 }
+
+
